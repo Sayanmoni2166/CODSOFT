@@ -1,0 +1,130 @@
+body {
+  font-family: 'Amazon Ember', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://img.freepik.com/free-vector/gradient-top-view-laptop-background_52683-6291.jpg?ga=GA1.1.266062147.1749266261&semt=ais_items_boosted&w=740');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #111;
+  line-height: 1.6;
+}
+
+.container {
+  width: 95%;
+  max-width: 1400px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.747);
+  border-radius: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+header {
+  background: linear-gradient(to right, #232f3eca, #37475a);
+  color: #ffffff;
+  padding: 40px 50px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+header h1 {
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1.4em;
+  color: #f3a847;
+}
+
+nav {
+  background: #232f3ec2;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 1;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+nav ul li a:hover {
+  background: #37475a;
+}
+
+.section {
+  padding: 60px 0;
+  background-color: #f7f7f7be;
+  margin-top: 20px;
+}
+
+.section:nth-child(even) {
+  background-color: #ffffffc6;
+}
+
+.section h2 {
+  font-size: 2.2em;
+  color: #232f3e;
+  text-align: center;
+  border-bottom: 3px solid #f3a847;
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.project-box {
+  background: #ffffffd8;
+  color: #232f3e;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  text-align: center;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.project-box img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.project-box:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+footer {
+  background: #1b7ae6ce;
+  color: #ddd;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 0.95em;
+  margin-top: 60px;
+}
